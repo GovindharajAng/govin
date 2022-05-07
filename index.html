@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>face book</title>
+
+	<style>
+		
+		#head{
+			
+			background-color: rgb(00, 00, 117);
+			padding: 23px;
+			font-size: 53px;
+			color: white;
+			font-family: Helvetica;
+			text-align: center;
+
+		}
+
+		h2{
+			margin: 25px;
+			font-family: Helvetica;
+			font-size: 27px;
+
+		}
+
+		p{
+			margin: 25px;
+			font-family: Helvetica;
+			font-size: 14.5px;
+			font-weight: bold;
+		}
+
+		#p1{
+			font-family: Helvetica;
+			font-weight: none;
+			font-size: 12px;
+		}
+		#button{
+			background-color: green;
+			color: white;
+			font-size: 15px;
+			padding: 10px 50px;
+			border-radius: 7px;
+			cursor: pointer;
+			margin: 10px 150px;
+
+		}
+  #legand{
+
+  	        color: red;
+  	        font-weight: bold;
+  	        text-align: center;
+  	        font-size: 23px;
+		}
+		div
+		{
+			background-color: rgb(116,214,123);
+		}
+		
+	</style>
+
+</head>
+<div>
+<fieldset>
+<legend id="legand">.....CREATE A NEW ACCOUNT.....</legend>
+<body>
+<h1 id="head">facebook</h1>
+<h2>Create an account</h2>
+<p>It's free always will be.</p>
+
+
+
+<form action="/action_page.php" target="_blank" method="post">
+	First name: 
+	<input type="text" name="firstname" value="" size="20" placeholder="enter your firstname">
+	
+	Last name: 
+	<input type="text" name="lastname" value="" size="20" placeholder="enter your lastname">
+	<br><br>
+
+	Mobile number:<br>
+	<input type="Mobile" name="Mobile" min="0" max="10" size="67" placeholder="enter your mobile number">
+	<br><br>
+	E-mail:<br>
+	<input type="email" name="email" size="67" placeholder=" enter your E-mail ID">
+	<br><br>
+	Enter new possword:<br>
+	<input type="password" name="psw" size="67" placeholder="enter your password">
+	<br><br>
+	Conform password:<br>
+	<input type="password" name="psw" size="67" placeholder="conform password">
+	<br><br>
+	Birthday:<br>
+	<input type="date" name="Birthday">
+	<br>
+	<br><br>
+
+<b> <input type="radio" name="gender" value="Male" checked="">Male<br>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="Others">Others<br>
+</b><br>
+
+
+<p id="p1">By clicking Sign Up, you agree to our Terms,<br>	Data Policy and Cookie Policy.<br>You may receive SMS notifications from us and can opt out at any time.</p>
+
+
+	<br>
+<button id="button" input type="submit" name="submit">Sign Up</button>
+</form>
+</fieldset>
+</div>
+</body>
+</html>
